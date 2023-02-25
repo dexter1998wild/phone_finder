@@ -1,5 +1,9 @@
-import cv2
-from matplotlib import image as mpimg
+"""_summary_
+
+Raises:
+    FileNotFoundError: _description_
+"""
+
 import sys
 import math
 import processor
