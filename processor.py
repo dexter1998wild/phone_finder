@@ -18,5 +18,6 @@ def phone_finder(im):
       
   rc = cv.minAreaRect(contours[0])              
   centre = [rc[0][0]/w, rc[0][1]/h]
-        
+
   return [round(centre[0],4) ,round(centre[1] ,4)]
+
