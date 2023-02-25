@@ -1,6 +1,7 @@
 '''
 Processor
 '''
+
 import cv2 as cv
 from matplotlib import image as mpimg
 
@@ -38,4 +39,3 @@ def phone_finder(image_path):
     centre = [rectangle[0][0]/width, rectangle[0][1]/height]
 
     return [round(centre[0], 4), round(centre[1], 4)]
-

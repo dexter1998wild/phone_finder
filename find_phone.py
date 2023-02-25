@@ -1,4 +1,3 @@
-
 '''
 Find Phone
 '''
@@ -11,6 +10,6 @@ try:
 except Exception as exc:
     raise FileNotFoundError('No file found') from exc
 
-
 test_out = processor.phone_finder(test_image)
 print(str(test_out[0]) + ' ' + str(test_out[1]) )
+
