@@ -2,6 +2,7 @@
 This project is designed to find phones in images using image processing techniques. The project consists of two files:
 
 train_phone_finder.py: This file contains the code to train the model to detect phones in the images.
+
 find_phone.py: This file uses the trained model to find the location of the phone in the given image.
 
 ## Installation
